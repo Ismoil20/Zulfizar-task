@@ -140,7 +140,10 @@ header {
     justify-content: center;
   }
   .header_img {
-    max-width: 200%;
+    max-width: none;
+    width: 200%;
+    height: 200%;
+    padding-right: 400px;
   }
 }
 
