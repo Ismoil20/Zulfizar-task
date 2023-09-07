@@ -140,10 +140,13 @@ header {
     justify-content: center;
   }
   .header_img {
+    overflow: hidden;
+  }
+  .header_img img {
     max-width: none;
-    width: 200%;
-    height: 200%;
-    padding-right: 400px;
+    width: 170%;
+    position: relative;
+    left: -70%;
   }
 }
 
